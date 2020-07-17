@@ -1,0 +1,9 @@
+package com.rsc.babystepprogram;
+
+public class JavaScientificCalculator {
+
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+	}
+
+}
