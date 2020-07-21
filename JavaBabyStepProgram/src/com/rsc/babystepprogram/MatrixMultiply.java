@@ -33,6 +33,7 @@ public class MatrixMultiply {
 			}
 		}
 		int[][] res = new int[r1][c2];
+		System.out.println("After multiplication the matrix is  : ");
 		for(int i = 0; i < r1; i++)
 		{
 			for(int j = 0; j < c2; j++)

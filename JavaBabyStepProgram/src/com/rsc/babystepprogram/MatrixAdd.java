@@ -36,6 +36,7 @@ public class MatrixAdd {
 				res[i][j] = m1[i][j] + m2[i][j];
 			}
 		}
+		System.out.println("After addition matrix is  : ");
 		for(int[] i : res)
 		{
 			for(int j : i)
