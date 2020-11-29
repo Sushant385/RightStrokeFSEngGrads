@@ -1,0 +1,21 @@
+<div class="container">
+    
+    <div>
+        <div [appDomManipulation]="'highlight'">I am Sushant Kumar.</div>
+        <span>I am Full Stack developer</span>
+    </div>
+
+    <p [appDomManipulation]="'color'" >
+        This is the paragraph tag
+    </p>
+
+    <a href="#" [appDomManipulation]="'col'">Google</a>
+
+    <button (click)="ADD()">ADD</button>
+
+    <div *ngFor="let d of customer">
+          <ul>
+              <li>{{d.name}}</li>
+          </ul>
+    </div>
+</div>
